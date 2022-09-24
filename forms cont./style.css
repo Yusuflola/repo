@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-card {
+    box-shadow: 2px 2px 1px 2px #ebebebe4;
+    background-color: white;
+    padding: 40px 150px 40px 150px;
+    margin: 50px 100px 50px 100px;
+   
+}
+
+.image {
+    height: 120px;
+    max-width: 120px;
+    border-radius: 50%;
+    border: 2px solid rgb(210, 118, 37);
+    margin-top: 10px;
+}
+
+.picture {
+    margin: 0px auto;
+   text-align: center;
+}
+
+
+h1 {
+    font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.pik {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.pik-1 {
+  text-decoration: underline;
+  text-decoration-color:rgb(210, 118, 37);
+}
+
+button {
+    font-size: 15px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.btn-1 {
+    border: 2px solid rgb(210, 118, 37);
+    color: black;
+    font-weight: 600;
+    padding: 10px 26px;
+}
+
+.btn-2 {
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(210, 118, 37);
+    padding: 12px 30px;
+}
+
+.btn {
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,108 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+justify-content: center;
+}
+
+.form-card {
+    box-shadow: 3px 3px 10px 2px #ebebebe4;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    width: 350px;
+}
+
+.title {
+    font-size: 34px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 15px;
+    color: #4d4d4d;
+    margin-bottom: 25px;
+}
+
+.form-item {
+    margin-bottom: 15px;
+}
+
+.lab {
+    font-size: 13px;
+    color: dimgray;
+    margin-bottom: 3px;
+}
+
+.form-item input {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 6px;
+}
+
+.forgot-pwd {
+   display: flex;
+   font-size: 13px;
+   font-weight: 700;
+   margin-bottom: 20px;
+   justify-content: space-between;
+}
+
+.forgot-pwd-link {
+    text-align: end;
+    color: #4d4d4d;
+}
+
+.social-login {
+    margin-top: 30px;
+}
+
+.social-login button {
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(200, 200, 200);
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.sign-up {
+    font-size: 12px;
+    color: #a3a1a1;
+  text-align: center;
+}
+
+.sign-up-link {
+    color: #000;
+}
